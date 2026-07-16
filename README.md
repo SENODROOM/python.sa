@@ -1,153 +1,34 @@
-# Python Language Examples
+# Python Beginner Practice Programs
 
-This directory contains Python examples showcasing the language's versatility, from basic programming concepts to advanced algorithms and real-world applications.
+A collection of 11 self-contained Python scripts covering core beginner topics.
+Each file runs independently with `python3 filename.py`.
 
-## 📁 Directory Structure
+| File | Topic |
+|---|---|
+| 01_variables_and_io.py | Variables, data types, input/output |
+| 02_conditionals.py | if / elif / else, comparison & logical operators |
+| 03_loops.py | for loops, while loops, break/continue, nested loops |
+| 04_functions.py | Functions, default args, *args/**kwargs, recursion |
+| 05_lists_and_tuples.py | List methods, slicing, comprehensions, tuples |
+| 06_dictionaries_and_sets.py | Dict methods, iteration, set operations |
+| 07_strings.py | String methods, formatting, slicing, palindrome check |
+| 08_exception_handling.py | try/except/else/finally, custom exceptions |
+| 09_file_handling.py | Reading/writing/appending files, simple CSV parsing |
+| 10_classes_and_objects.py | Classes, inheritance, polymorphism, encapsulation |
+| 11_mini_projects.py | Number guessing game, calculator, to-do list manager |
 
-### 🔍 [algorithms/](./algorithms/)
-- **binary search** - Binary search algorithm implementation
-- **bisection method** - Bisection method for root finding
-- **breadth first search** - BFS graph traversal
-- **depth first search** - DFS graph traversal
-- **merge sort** - Merge sort algorithm
-- **n queens** - N-Queens problem solver
-- **nth fibonacci number calculator** - Fibonacci calculator
-- **quicksort** - Quicksort algorithm
-- **selection sort** - Selection sort algorithm
-- **shortest path** - Shortest path algorithm
-- **tower of hanoi** - Tower of Hanoi solver
+## Requirements
+Python 3.7+ (no external libraries needed — standard library only).
 
-### 🏗️ [data_structures/](./data_structures/)
-- **adjacency list to matrix converter** - Graph representation converter
-- **hash table** - Hash table implementation
-- **linked list** - Linked list implementation
-
-### 📝 [string_operations/](./string_operations/)
-- **caesar cipher** - Caesar cipher encryption/decryption
-- **luhn algorithm** - Luhn algorithm for credit card validation
-- **pin extractor** - PIN extraction utility
-
-### 🔢 [mathematical/](./mathematical/)
-- **number pattern generator** - Pattern generation utility
-- **polygon area calculator** - Area calculation for polygons
-
-### 🎮 [games/](./games/)
-- **guess game** - Number guessing game
-- **game character stats tracker** - RPG character stats
-- **rpg character** - RPG character system
-
-### 🎮 [simple_programs/](./simple_programs/)
-- **calculator** - Basic arithmetic calculator with menu interface
-- **guess number** - Number guessing game with random numbers
-- **to do list** - Task management system with completion tracking
-- **password generator** - Generate secure passwords with strength analysis
-- **text analyzer** - Analyze text for word count, readability, and statistics
-- **sorting algorithms** - Implementation of common sorting algorithms
-- **fibonacci sequence** - Generate and analyze Fibonacci numbers
-- **prime numbers** - Prime number generation and analysis tools
-- **binary converter** - Convert between binary, decimal, octal, and hexadecimal
-- **unit converter** - Convert between different units of measurement
-- **stopwatch** - Timer with lap times and statistics
-- **quiz game** - Interactive quiz with multiple categories
-- **hangman** - Classic word guessing game with AI opponent
-- **tic tac toe** - Two-player game with AI tournament mode
-
-### � [applications/](./applications/)
-- **budget app** - Personal budget management
-- **discount calculator** - Discount calculation utility
-- **email simulator** - Email simulation system
-- **media catalog** - Media collection manager
-- **medical data validator** - Medical data validation
-- **musical instrument inventory** - Instrument inventory system
-- **salary tracker** - Salary tracking application
-- **user configuration manager** - User configuration system
-
-### � [utilities/](./utilities/)
-- **isbn validator** - ISBN validation utility
-- **planet class** - Astronomical calculations
-- **player interface** - Game player interface
-
-### 📚 [examples/](./examples/)
-- **functions** - Function definition and usage
-- **if else** - Conditional statements
-- **input** - Input handling
-- **output** - Output formatting
-- **test2** - Testing example
-- **test budget** - Budget testing
-- **tutorial** - Basic tutorial
-
-## 🎯 Learning Objectives
-
-These examples teach:
-- **Python Syntax** - Clean, readable code structure
-- **Data Structures** - Lists, dictionaries, sets, tuples
-- **Object-Oriented Programming** - Classes and objects
-- **Algorithm Implementation** - Efficient problem-solving
-- **File I/O** - Working with files and data
-- **Exception Handling** - Error management
-- **Module Usage** - Import and use of standard libraries
-- **Application Development** - Real-world program structure
-- **Game Development** - Interactive games and AI
-- **Mathematical Computing** - Number theory and algorithms
-- **Module Usage** - Import and use of standard libraries
-- **Application Development** - Real-world program structure
-
-## 💡 Key Features
-
-- **Readable syntax** - Python's clean and expressive code
-- **Comprehensive coverage** - From basics to advanced topics
-- **Real applications** - Practical, useful programs
-- **Educational focus** - Well-commented, learning-oriented
-- **Progressive difficulty** - Structured learning path
-
-## 🚀 Getting Started
-
-1. **Absolute Beginners**: Start with **examples/** for basic syntax
-2. **Beginners**: Move to **simple_programs/** for interactive programs
-3. **Intermediate**: Study **algorithms/** and **data_structures/**
-4. **Advanced**: Explore **applications/** and **games/**
-
-## 📖 Usage
-
-Each `.sa` file can be run with the Quantum Language interpreter:
+## How to run
 ```bash
-quantum example.sa
+python3 01_variables_and_io.py
 ```
 
-## 🎓 Recommended Learning Path
+Some scripts (01, 02, 08, 11) ask for input via the terminal, so run them
+directly rather than through an IDE's "Run" button if input isn't supported there.
 
-### **Beginner Phase**:
-- Basic syntax (examples/)
-- Interactive programs (simple_programs/)
-- Simple games and utilities
-
-### **Intermediate Phase**:
-- Functions and modules
-- Data structures and algorithms
-- Mathematical computing
-
-### **Advanced Phase**:
-- Object-oriented programming
-- Application development
-- Complex game development with AI
-
-### **Expert Phase**:
-- System programming
-- Advanced algorithms
-- Full application development
-
-## 🔧 Python Features Demonstrated
-
-- **Clean Syntax** - Readable and maintainable code
-- **Dynamic Typing** - Flexible variable types
-- **Built-in Data Structures** - Lists, dictionaries, sets, tuples
-- **List Comprehensions** - Concise data manipulation
-- **Functions and Lambdas** - Functional programming concepts
-- **Classes and Objects** - OOP implementation
-- **Modules and Packages** - Code organization
-- **Exception Handling** - Robust error management
-- **File Operations** - Data persistence
-
----
-
-*Excellent for learning programming fundamentals and developing practical applications with Python.*
+## Suggested order
+Work through the files in numeric order (01 → 11) — each one builds on
+concepts from the previous ones, ending with three mini projects that combine
+everything learned.
